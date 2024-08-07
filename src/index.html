@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.ts" type="module"></script>
+    <title>Moment 2</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lägg till sak</h1>
+        <form id="task-form">
+            <label for="task">Sak att göra</label>
+            <input type="text" id="task" name="task">
+            <label for="priority">Prioritet</label>
+            <select id="priority" name="priority">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button type="submit" id="add-btn">+</button>
+        </form>
+
+        <button id="clear-btn" class="clear-btn">Rensa</button>
+    </div>
+
+    <div id="todo-list" class="container">
+        <h1>Saker att göra</h1>
+        <ul>
+        </ul>
+    </div>
+</body>
+</html>

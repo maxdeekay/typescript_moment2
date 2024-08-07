@@ -1,5 +1,5 @@
-// Importerar TodoList-klassen från todolist.ts
-import { TodoList, Todo } from "./todoList";
+// Imports the TodoList-class from todolist.ts
+import { TodoList } from "./todolist";
 
 document.addEventListener("DOMContentLoaded", () => {
     const todo = new TodoList(); // creates new todo
